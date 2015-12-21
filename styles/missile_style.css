@@ -1,0 +1,196 @@
+@font-face{
+  font-family: atari;
+  src: url(atari_full.ttf);
+}
+
+header{
+  height: 100px;
+  font-family: atari;
+  text-align: left;
+  background-color: black;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+h1{
+  margin-top: 5px;
+  margin-left: 30px;
+  color: white;
+}
+#background{
+  position: center;
+  background-image: url('../img/mc-pagebg2.png');
+  background-size: cover;
+
+}
+#title{
+  margin-top: 5px;
+  margin-left: 30px;
+  background-image: url('../img/title.png');
+}
+#wrapper{
+  position: center;
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: gray;
+  height: 450px;
+}
+
+#loadScreen{
+  background-color: black;
+  color: white;
+  height: 350px;
+  width: 800px;
+  margin: auto;
+  font-family: atari;
+  padding: 10px;
+}
+#endScreenWin{
+  background-color: black;
+  color: white;
+  height: 350px;
+  width: 800px;
+  margin: auto;
+  font-family: atari;
+  padding: 10px;
+}
+#endScreenLoss{
+  background-color: black;
+  color: white;
+  height: 350px;
+  width: 800px;
+  margin: auto;
+  font-family: atari;
+  padding: 10px;
+}
+#block {
+  position: absolute;
+  width: 900px;
+  height: 375px;
+  margin: auto;
+  background-image: url('../img/mc-background.png');
+  background-size: cover;
+  background-position: center;
+  display: block;
+  cursor: url("../img/Alternate Select.cur"), auto;
+}
+#block .p1{
+  font-family: atari;
+  margin-left: 30px;
+  color: white;
+  float: left;
+}
+#block .p2{
+  font-family: atari;
+  margin-right: 30px;
+  color: white;
+  float: right;
+}
+#block .pTimer{
+  font-family: atari;
+  color: white;
+  float: bottom;
+}
+#block.hit {
+  width: 900px;
+  height: 375px;
+  margin: auto;
+  background-image: url('../img/mc-background-hit.png');
+  background-size: cover;
+  background-position: center;
+  display: block;
+  cursor: url("../img/Alternate Select.cur"), auto;
+}
+.missileUp {
+  position: absolute;
+  background-image: url('../img/missileUp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  float: bottom;
+}
+.missile {
+  position: absolute;
+  background-image: url('../img/missile.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  /*transition: top 2s, left 2s;
+  transition-timing-function: linear;*/
+}
+.missile2 {
+  position: absolute;
+  background-image: url('../img/missile3.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  /*transition: top 2s, left 2s;
+  transition-timing-function: linear;*/
+}
+.missile3 {
+  position: absolute;
+  background-image: url('../img/missile copy1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  /*transition: top 2s, left 2s;
+  transition-timing-function: linear;*/
+}
+.sploded {
+  position: absolute;
+  background-image: url('../img/sploded.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  transition: top 2s, left 2s;
+  transition-timing-function: linear;
+}
+.sploded2 {
+  position: absolute;
+  background-image: url('../img/sploded2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 36px;
+  transition: top 2s, left 2s;
+  transition-timing-function: linear;
+}
+.hitsploded {
+  position: absolute;
+  background-image: url('../img/sploded.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  transition: top 2s, left 2s;
+  transition-timing-function: linear;
+}
+.hitsploded2 {
+  position: absolute;
+  background-image: url('../img/sploded2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 36px;
+  transition: top 2s, left 2s;
+  transition-timing-function: linear;
+}
+.hitsploded2 {
+  position: absolute;
+  background-image: url('../img/sploded2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 36px;
+  transition: top 2s, left 2s;
+  transition-timing-function: linear;
+}
+#text{
+  color: white;
+  font-size: 50;
+}

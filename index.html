@@ -1,1 +1,43 @@
-Oh hayyy
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MISSILE COMMAND</title>
+  <link rel="stylesheet" href="styles/missile_style.css"/>
+  <script src="jquery-2.1.4.js"></script> 
+</head>
+<body>
+<header>
+<img src="img/title.png" id="title">
+</header>
+<div id="background">
+<div id="wrapper">
+<div id="block">
+<div id="loadScreen">
+<p>WAR! Those treacherous reds have ditched diplomacy and broken off peace talks! Now the Soviet airforce are attempting a bombing raid over Washington DC! </p>
+<p>President Raygun has tasked you with protecting freedom with the STAR WARS missile defense system, a product of capitalist ingenuity!</p>
+<p>CLICK HERE to start! Show Ivan what America is made of!</p>
+<p>
+(Oh yeah, here's how to play: Click to destroy the missiles before they hit Washington DC! Each sucessful intercept depletes the USSR's score by 10 pts and increases America's score, while each hit on Washington decreases our score by 10 pts. First to zero loses World War III permanently!)
+</div>
+<div id="endScreenWin">
+<p>VICTORY!</p>
+<p>You've successfully defended DC! Meanwhile, our boys overseas have turned Moscow into a cloud of radioactive dust! Democracy has defeated communism forever!</p>
+<p>Refresh page to play again!</p>
+</div>
+<div id="endScreenLoss">
+<p>GAME OVER!</p>
+<p>Seriously?!? How could you let down our country in its darkest hour? You must be a dirty socialist. Report to President Raygun for immediate summary execution!</p>
+<p>Refresh page to play again!</p>
+</div>
+<p class="p1">FREEDOM Score: 300</p>
+<p class="p2">COMMIES Score: 600</p>
+<p class="pTimer"><time>00:00</time></p>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="missilecommand.js"></script>
+<audio autoplay>
+  <source src="audio/Judas Priest - You've Got Another Thing Comin' (8 bit).mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
